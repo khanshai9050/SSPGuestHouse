@@ -1,0 +1,251 @@
+ /***css for scroll to top**/
+ 
+  #myScrollToTopBtn {
+  display: none;  /*Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #044042; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  border-radius:50%;
+}
+
+#myScrollToTopBtn:hover {
+  background-color: #FBBC32; /* Add a dark-grey background on hover */
+  color:black;
+}
+/*css for whole page*/
+*
+{
+ font-family: "Ubuntu Sans", sans-serif;
+}
+/*css for footer*/
+@media(max-width:670PX)
+{
+.MenuDiv
+{
+display:none;
+}
+}
+/*css for menu gap*/
+.MenuGap
+{
+	width:200px;
+}
+
+@media(max-width:991PX)
+{
+.MenuGap
+{
+	width:850px;
+}
+}
+/*css for selected menus*/
+.SelectedMenu .nav-link
+{
+	border-bottom:2px solid #FBBC32;
+	color:#044042 !important;
+}
+/*css for home gif image*/
+
+		 .box {
+     background: #ffffff;
+     border-radius: 10px;
+     position: relative;
+     box-sizing: border-box;
+     padding: 40px 10px 30px;
+     border: 1px solid white;
+     box-shadow: 0px 3px 7px 3px gray;
+ }
+
+/*css for navbar links*/
+.NavbarLinks
+{
+font-size:19px;
+}
+.NavbarLinks:hover
+{
+color:red;
+}
+
+/*Common design for button*/
+	 .GHouseBtn
+  {
+  
+
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:  #FBBC32;/* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+ /* Rounded corners */  
+  }
+  
+    .GHouseBtn:hover
+	{
+		 background-color: #044042;
+		 color:white;
+	}
+				/**css for testimonial*/
+				.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) !important; /* Inverts the color to make it appear red */
+}
+
+/*Css for foter link*/
+
+.Footerlink
+{
+text-decoration:none;
+color:white;
+}
+.Footerlink:hover
+{
+color:white;
+}
+
+/*CSS for disappear block on responsiveness*/
+
+@media(max-width:766PX)
+{
+.MapDiv
+{
+display:none;
+}
+.SuccessDiv
+{
+display:none;
+}
+}
+
+ /**CSS FOR ABOUT US PAGE**/
+
+		.AboutBackgroundImage1
+		{
+		 background-image: url('Images/HeaderTop1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+background-attachment:fixed;
+height:50%;
+width:100%;
+		}
+		 .Overlay1{
+width: 100%;
+height: 100%;
+position:absolute;
+color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size: 25px;
+background-color:#0009;
+  }
+  
+  /*CSS for About Amenities*/
+  
+  .AboutService
+  {
+	  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	  color:#044042;
+	  text-align:center;
+	  padding:20px;
+  }
+    .AboutService:hover
+  {
+	  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	  background-color:#FBBC32;
+	  text-align:center;
+	  padding:20px;
+	  color:white;
+  }
+  
+  /*CSS for Contact Info*/
+  
+    .ContactInfo
+  {
+	 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	  color:#044042;
+	  text-align:center;
+	  padding:20px;
+  }
+  
+  /*CSS for contact location part*/
+  #more {display: none;}
+  #dots  {cursor:pointer;}
+  
+  /*CSS for contact hover*/
+  .ContactHover
+  {
+	  text-decoration:none;
+	  color:#044042;
+  }
+  
+  /*CSS for Service Div Hover*/
+  
+  .ServiceDivsHover
+  {
+   text-align:center;
+   padding:20px 0px 20px 0px;
+   color:#044042;
+  }
+    .ServiceDivsHover:hover
+  {
+   color:white;
+   background-color:#FBBC32;
+   cursor:pointer;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  /*Css for margin on mobile view*/
+  
+  @media(max-width:574px)
+{
+.ServiceDivsHover
+{
+margin-top:20px;
+}
+}
+
+/**CSS FOR ABOUT US PAGE**/
+
+		.VisitBackgroundImage1
+		{
+		 background-image: url('Images/Visit.png');
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+background-attachment:fixed;
+height:50%;
+width:100%;
+		}
+		 .VisitOverlay1{
+width: 100%;
+height: 100%;
+position:absolute;
+color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size: 25px;
+background-color:#0009;
+  }
+  
+  /*css for visit page*/
+  
+  .VisitPageHover
+  {
+	border:none;  
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }

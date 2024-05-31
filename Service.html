@@ -1,0 +1,339 @@
+<html>
+	<head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-0y5RloUE63m5iEJpCv/zLU3tnIOeR5x3RBQquqG2dP5QilrPGXlhrg5AqgLujQmI" crossorigin="anonymous">
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="HotelStyle.css" type="text/css" rel="stylesheet"/>
+		<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+        <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,800,800i,900" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i&amp;display=swap&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=desktop-width, initial-scale=1">
+	</head>
+	<body>
+		<!--div for top to up button-->
+		<button onclick="topFunction()" id="myScrollToTopBtn" title="Go to top"><i class="fa-solid fa-arrows-up-to-line"></i></button>
+<!--- header-->
+		<div class="container-fluid">
+			<div class="row p-2" STYLE="background-color:#FBBC32;">
+				<div class="col-sm-12 mt-3" style="color:black;text-align:center;">
+					<h4 style="color:black;font-size:15px;">
+					<a href="tel:8764398765" style="text-decoration:none;color:black;">
+					<i class="fa-solid fa-mobile-screen-button"></i> <span class="MenuDiv">Call&ensp;</span>&ensp;</a>
+					<a href="https://wa.me/8764398765" style="text-decoration:none;color:black;">
+					<i class="fa-brands fa-whatsapp"></i> <span class="MenuDiv">Whatsapp&ensp;</span>&ensp;
+					</a>
+					<a href="mailto:info@sspguesthouse.com" style="text-decoration:none;color:black;">
+				    <i class="fa-solid fa-envelope-circle-check"></i> <span class="MenuDiv">Mail&ensp;</span>
+					</a></h4>
+				
+				</div>
+			</div>
+		</div>
+        <!--- menu bar-->
+        <div class="container-fluid sticky-top">
+			<div class="row">
+				<div class="col-sm-12 p-0">
+					<nav class="navbar navbar-expand-lg navbar-light" style="background-color:white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+						<div class="container-fluid">
+						   <a class="navbar-brand" href="#"><img src="Images/logo2.png"/></a>
+							<button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class='MenuGap'></div>
+							<div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item NavbarLinks">
+										<a class="nav-link active" aria-current="page" href="index.html"
+                                        >Home&ensp;</a>
+									</li>
+									
+									<li class="nav-item NavbarLinks">
+										<a class="nav-link active" href="About.html">AboutUs&ensp;</a>
+									</li>
+									<li class="nav-item NavbarLinks">
+										<a class="nav-link active" href="Visit.html">VaranasiCharm&ensp;</a>
+									</li>
+									<li class="nav-item dropdown NavbarLinks">
+										<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                        >
+											Rooms
+										</a>
+										<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<li><a class="dropdown-item" href="Delux.html">Deluxe</a></li>
+											<li>
+												<hr class="dropdown-divider">
+											</li>
+											<li><a class="dropdown-item" href="Standard.html">Standard</a></li>
+											<li>
+												<hr class="dropdown-divider">
+											</li>
+											<li><a class="dropdown-item" href="Double.html">Double Room</a></li>
+										</ul>
+									</li>
+									<li class="nav-item NavbarLinks SelectedMenu">
+										<a class="nav-link active" href="Service.html"
+                                        >Services&ensp;</a>
+									</li>
+									<li class="nav-item NavbarLinks">
+										<a class="nav-link active" href="Gallery.html"
+                                        >Gallery&ensp;</a>
+									</li>
+									<li class="nav-item NavbarLinks">
+										<a class="nav-link active" href="Contact.html">Contact&ensp;</a>
+									</li>
+									<li class="nav-item NavbarLinks">
+										<a href="https://www.google.com.np/travel/hotels/entity/ChoIgOOdxOjxgLfzARoNL2cvMTFsNng3MjFsORAB/prices?q=Shiv%20shakti%20paying%20guest%20house&g2lb=4207876%2C4208993%2C4220293%2C4223281%2C4242898%2C4245928%2C4251619%2C4253230%2C4254308%2C4256748%2C4258168%2C4250437%2C4251518%2C4253015&hl=en&gl=np&un=1&ictx=1&tcfs=EhoaGAoKMjAxOS0wNS0yMRIKMjAxOS0wNS0yMlIA&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaNAoWEhIKCS9tLzAxNnp3dDoFTmVwYWwaABIaEhQKBwjoDxAFGA4SBwjoDxAFGA8YATICEAAqCQoFOgNOUFIaAA&sa=X&ap=KigKEgmlErwF3TU4QBE0vuWg6C9UQBISCfSfLA1uhz1AETS-5aAMdFVAMAA&qs=CAAgACgAOA1IAA" target='_blank'>
+								<button class="btn btn GHouseBtn">
+									Book Now
+								</button></a>
+									</li>
+								</ul>
+								
+							</div>
+						</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		<!---div for transparent image-->
+		<!--First div--->
+		<div class="container-fluid AboutBackgroundImage1">
+			<div class="row">
+				<div class="col-sm-12 Overlay1">
+					<h1 style="font-family: Raleway;">Our Services</h1>
+					<h6><a href="index.html" style="color:white;text-decoration:none;">Home</a> > Services</h6>
+				</div>
+			</div>
+		</div>
+		<!---div for first div-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 mt-5">
+					<h1 class=" m-b5" data-title="About" style="color:#044042;font-family: Raleway;font-weight:bold;text-align:center;">
+					<span style="border-bottom:5px solid #FBBC32;font-family: Raleway;">Our</span> Services</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 mt-3">
+					<h6 style="text-align:justify;word-spacing:3px;line-height:22px;">Nestled in the heart of Varanasi, Shiv Shakti Paying Guest House stands as a beacon of elegance and sophistication. From the moment you step into our Guest House, you'll be enveloped in an atmosphere of refined luxury and impeccable service.Ready to experience the epitome of luxury and hospitality? Book your stay at Shiv Shakti Paying Guest House comfort and indulgence.</h6>
+				</div>
+			</div>
+			<!---div for amenities-->
+			<div class="row">
+				<h1 class="mt-4 mb-4" data-title="About" style="font-family: Raleway;font-weight:bold;">Amenities</h1>
+				<div class="col-sm-4">
+					<div class="card ServiceDivsHover" style="width: 100%;">
+						<div class="card-body">
+						<i class="fa-solid fa-wifi fa-2x mb-3"></i>
+							<h5 class="card-title">Free WiFi</h5>
+							<p class="card-text">There is free internet service all around the Guest House</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card ServiceDivsHover" style="width: 100%;">
+						<div class="card-body">
+						<i class="fa-solid fa-broom fa-2x mb-3"></i>
+							<h5 class="card-title">Room service</h5>
+							<p class="card-text">SSP Guest House give the best room service to our guest</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card ServiceDivsHover" style="width: 100%;">
+						<div class="card-body">
+						<i class="fa-solid fa-bath fa-2x mb-3"></i>
+							<h5 class="card-title">Private bathroom</h5>
+							<p class="card-text">There is separate bathroom in every room and it is net & clean</p>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!--div for second row for services-->
+				<div class="row mt-4">
+				<div class="col-sm-4">
+					
+					<div class="card ServiceDivsHover" style="width: 100%;">
+									<div class="card-body">
+									<i class="fa-solid fa-paw fa-2x mb-3"></i>
+										<h5 class="card-title">Pets allowed</h5>
+										<p class="card-text">SSP allowed the pets inside the Guest House and there is no extra charges</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="card ServiceDivsHover" style="width: 100%;">
+									<div class="card-body">
+									<i class="fa-solid fa-couch fa-2x mb-3"></i>
+										<h5 class="card-title">Outdoor furniture</h5>
+										<p class="card-text">SSP Guest House provide the best furnitures which are more comfortable</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="card ServiceDivsHover" style="width: 100%;">
+									<div class="card-body">
+									<i class="fa-solid fa-person-booth fa-2x mb-3"></i>
+										<h5 class="card-title">Terrace</h5>
+										<p class="card-text">There is also terrace  attached room which give the fresh air</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--div for third row for services-->
+						<div class="row mt-4">
+							
+									<div class="col-sm-4">
+										<div class="card ServiceDivsHover" style="width: 100%;">
+											<div class="card-body">
+											<i class="fa-solid fa-lock fa-2x mb-3"></i>
+												<h5 class="card-title">Lockers</h5>
+												<p class="card-text">There is also lockers facility for the guests' expencive things</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="card ServiceDivsHover" style="width: 100%;">
+											<div class="card-body">
+											<i class="fa-solid fa-hand-sparkles fa-2x mb-3"></i>
+												<h5 class="card-title">Daily housekeeping</h5>
+												<p class="card-text">SSP give daily house cleaning service to their guest</p>
+											</div>
+										</div>
+										</div>
+									<div class="col-sm-4">
+										<div class="card ServiceDivsHover" style="width: 100%;">
+											<div class="card-body">
+									<i class="fa-solid fa-chair fa-2x mb-3"></i>
+												<h5 class="card-title">24-hour front desk</h5>
+												<p class="card-text">SSL Guest House give 24 * 7 Reception facility to their guest</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--div for fourth row for services-->
+								<div class="row mt-4">
+											<div class="col-sm-4">
+												<div class="card ServiceDivsHover" style="width: 100%;">
+													<div class="card-body">
+													<i class="fa-solid fa-fire-extinguisher fa-2x mb-3"></i>
+														<h5 class="card-title">Fire extinguishers</h5>
+														<p class="card-text">SSP first priority is to give full security to the guests</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-4">
+												<div class="card ServiceDivsHover" style="width: 100%;">
+													<div class="card-body">
+													<i class="fa-solid fa-camera-retro fa-2x mb-3"></i>
+														<h5 class="card-title">CCTV</h5>
+														<p class="card-text">CCTV is available in common areas and outside the property</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-4">
+												<div class="card ServiceDivsHover" style="width: 100%;">
+													<div class="card-body">
+													<i class="fa-solid fa-shield fa-2x mb-3"></i>
+														<h5 class="card-title">Smoke & Security Alarm</h5>
+														<p class="card-text">Smoke and Security alarm also used inside the guest house for the guests' security</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+<!---div for footer--->
+<div class="container-fluid ps-5 mt-5" style="background-color:
+#e1a92d;">
+								<div class="row mb-1 pt-5">
+									<div class="col-12 col-sm-8 col-lg-4">
+										<img src="Images/logo4.png" style="height:69px;width:200px;"/>
+										<hr style='color:white;'>
+									<ul style="color:white;margin-top:10px;">
+						<a href="tel:8764398765" class="Footerlink">
+							<li style="color:white;">+91 8764398765</li>
+						</a>
+						<a href="mailto:info@sspguesthouse.com" class="Footerlink"><li>
+							info@sspguesthouse.com
+						</li></a>
+						<a style="text-align:justify;" class="Footerlink"><li>
+							Ck873, near Kashi Vishwanath Rd, beside Manikanka Ghath, Garwashi Tola, Govindpura, Varanasi, 
+							Uttar Pradesh 221001, India
+						</li></a>
+					</ul>
+									</div>
+									
+									<div class="col-12 col-sm-2 col-lg-1"></div>
+									<div class="col-12 col-sm-4 col-lg-2">
+										<h3 style="color:white;">Navigation</h3>
+										<ul style="color:white;">
+											<a href="index.html" class="Footerlink"><li class="mt-4">Home</li></a>
+											<a href="About.html" class="Footerlink"><li>About Us</li></a>
+											<a href="Visit.html" class="Footerlink"><li>Varanasi Charms</li></a>
+											<a href="Service.html" class="Footerlink"><li>Service</li></a>
+										<a href="Gallery.html" class="Footerlink"><li>Gallery</li></a>
+										<a href="Contact.html" class="Footerlink"><li>Contact</li></a>
+										
+					</ul>
+				</div>
+				<div class="col-12 col-sm-4 col-lg-2" style="color:white;">
+					<h3 class="mb-1">Book Us By</h3>
+					<a  class="Footerlink" href="https://www.booking.com/hotel/in/shiv-shakti-paying-guest-house.en-gb.html?aid=356980&label=gog235jc-1DCAsobEIec2hpdi1zaGFrdGktcGF5aW5nLWd1ZXN0LWhvdXNlSDNYA2hsiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuALb94ayBsACAdICJDkyYTYwYTcwLWI1M2QtNDFlMS1hODg0LTZmNmI3MjVkODE2MtgCBOACAQ&sid=261bfa596a8ab8e5fc54e17a72efae0f&dist=0&keep_landing=1&sb_price_type=total&type=total&" target='_blank'>
+						<h6 class="mt-4">&check; Booking.com</h6>
+					</a>
+					<a  class="Footerlink"  href="https://www.goibibo.com/hotels/shiv-shakti-paying-guest-house-hotel-in-varanasi-8695042459257095424/" target='_blank'>
+						<h6>&check; Goibibo</h6>
+					</a>
+					<a class="Footerlink" href="https://www.makemytrip.com/hotels/shiv_shakti_paying_guest_house-details-varanasi.html" target='_blank'> 
+						<h6>&check; MakeMyTrip</h6>
+					</a>
+					<a class="Footerlink" href="https://www.justdial.com/Varanasi/Shiv-Shakti-Paying-Guest-House-Near-By-Gate-No-4-Hanuman-Mandir-Vishwanath-Gali/0542PX542-X542-230721185351-B3I3_BZDET" target='_blank'> 
+						<h6>&check; JustDial</h6>
+					</a>
+					<a class="Footerlink" href="https://shivshaktipayingguesthouse93574.bookmystay.io/" target='_blank'> 
+						<h6>&check; BookMyStay</h6>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3" style="color:white;">
+					
+					
+					<img src="Images/FooterGif.gif" style='width:100%;'/>
+				</div>
+			</div>
+			<hr style="color:white;">
+			<div class="row">
+				<div class="col-sm-5">
+				<h6 style="color:white;">Copyright © 2024 All rights reserved | Developed by <a href='https://www.techomind.com/' class='Footerlink' target='_blank'>Techomind</a></h6>
+				</div>
+				<div class="col-sm-5"></div>
+				<div class="col-sm-2">
+					<a href="#" ><i class="fa-brands fa-facebook" style="color:white;" aria-hidden="true"></i></a>
+					
+					&ensp;    <a href="#"><i class="fa-brands fa-instagram"  style="color:white;" aria-hidden="true"></i></a>
+					&ensp;    <a href="https://www.google.com/search?q=shiv+shakti+paying+guest+house&oq=shiv+&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDsyBggBEEUYOzIOCAIQRRgnGDsYgAQYigUyBggDEEUYOTIGCAQQRRg7MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINzgxMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target='_blank'><i class="fa-brands fa-google" style="color:white;" aria-hidden="true"></i></a>
+					&ensp;    <a href="mailto: info@sspguesthouse.com"><i class="fa-solid fa-envelope" style="color:white;"></i></a>
+					&ensp;    <a href="tel:8764398765"><i class="fa-solid fa-phone" aria-hidden="true" style="color:white;"></i></a>         
+				</div>
+			</div>
+		</div>
+		<script src="HotelScript.js"></script>
+	</body>
+</html>
